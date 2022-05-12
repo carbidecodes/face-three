@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "skipLibChecks": true,
+        "lib": [
+            "deno.ns", "dom"
+        ]
+    },
+    "tasks": {
+        "dev": "deno bundle --no-check --watch ./src/index.ts ./out/index.js"
+    }
+}
